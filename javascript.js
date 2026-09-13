@@ -8,7 +8,7 @@ for (let r = 1; r <= 16; r++) {
     for (let c = 1; c <= 16; c++) {
         const grid = document.createElement("div");
         grid.setAttribute("class", "grid");
-        grid.textContent = c;
+        // grid.textContent = c;
         row.appendChild(grid);
     }
 
