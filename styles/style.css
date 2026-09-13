@@ -8,7 +8,8 @@
     display: flex;
 }
 
-.grid {
+.grid,
+.grid-hovered {
     box-sizing: border-box;
     min-height: 24px;
     min-width: 24px;
@@ -16,6 +17,7 @@
     
 }
 
-.grid:hover {
+.grid-hovered {
     background-color: black;
+    
 }
